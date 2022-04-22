@@ -21,15 +21,11 @@ p {
 }
 
 #page {
-  /* height: 100vh; */
   width: auto;
   border: black 1px solid;
   display: flex;
-  /* font-family: Hoosier-Daddy, sans-serif; */
-  /* font-family: uppercut-angle, sans-serif; */
 }
 nav {
-  /* border: solid 1px green; */
   height: 80px;
   display: flex;
   align-items: center;
@@ -76,7 +72,6 @@ a:active {
 }
 
 main {
-  /* border: red 2px solid; */
   height: 100vh;
   display: flex;
   flex-direction: row;
@@ -84,11 +79,10 @@ main {
 
 /* FÖRSTA BILD DEL */
 .half-pic {
-  background-image: url(/Skärmavbild\ 2022-04-21\ kl.\ 20.51.02.png);
+  background-image: url(./assets/Skärmavbild\ 2022-04-21\ kl.\ 20.51.02.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 60%;
-  /* border: slateblue 1px solid; */
   width: 50%;
 }
 
@@ -128,7 +122,6 @@ button:hover {
   display: flex;
 }
 .half-pic3 {
-  /* border: solid 1px greenyellow; */
   width: 50%;
   background-image: url(./assets/yes.jpeg);
   background-repeat: no-repeat;
@@ -146,7 +139,6 @@ button:hover {
   background-repeat: no-repeat;
   background-size: cover;
   width: 50%;
-  /* border: 1px solid yellow; */
   background-position: 70%;
 }
 
@@ -173,8 +165,6 @@ button:hover {
 #p-white {
   color: white;
   width: 40%;
-  /* font-family: "Bebas Neue", cursive; */
-  /* font-family: "Inter", sans-serif; */
   font-family: "Patrick Hand", cursive;
   font-size: 1.2rem;
   font-weight: 500;
@@ -195,7 +185,6 @@ footer {
 }
 .footer-text {
   display: flex;
-  /* flex-grow: 1; */
   flex-direction: column;
 }
 
