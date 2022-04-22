@@ -1,0 +1,263 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+h2 {
+  font-family: uppercut-angle, sans-serif;
+}
+p {
+  color: rgb(0, 0, 0);
+  width: 70%;
+  font-family: "Patrick Hand", cursive;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-stretch: ultra-expanded;
+  margin-top: 20px;
+}
+
+.milton-svg {
+  width: 140px;
+}
+
+#page {
+  /* height: 100vh; */
+  width: auto;
+  border: black 1px solid;
+  display: flex;
+  /* font-family: Hoosier-Daddy, sans-serif; */
+  /* font-family: uppercut-angle, sans-serif; */
+}
+nav {
+  /* border: solid 1px green; */
+  height: 80px;
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  background-color: black;
+  color: #e9d8a6;
+}
+
+.nav__links {
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  gap: 0 30px;
+  left: 10px;
+  padding: 0 10px;
+}
+.nav__links1 {
+  padding: 0 10px;
+  gap: 0 30px;
+  list-style-type: none;
+}
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  text-decoration-line: none;
+  color: #e9d8a6;
+  right: 0%;
+  left: 0%;
+  display: inline-block;
+  position: relative;
+  transition: 0.25s ease-out;
+}
+
+a:hover {
+  transform: scale(1.05);
+  text-decoration-line: underline;
+}
+a:active {
+  transform: scale(1);
+}
+
+main {
+  /* border: red 2px solid; */
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+/* FÖRSTA BILD DEL */
+.half-pic {
+  background-image: url(./assets/Skärmavbild\ 2022-04-21\ kl.\ 20.51.02.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 60%;
+  /* border: slateblue 1px solid; */
+  width: 50%;
+}
+
+.half-pic2 {
+  width: 50%;
+  background-image: url(./assets/yes.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(209, 209, 209, 0.788);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+button {
+  font-family: uppercut-angle, sans-serif;
+  font-size: 1.1rem;
+  background-color: black;
+  color: #e9d8a6;
+  padding: 5px;
+  column-gap: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: #e9d8a6;
+  color: black;
+  transform: scale(1.1);
+}
+
+/* ANDRA BILD DEL  */
+#container-2 {
+  height: 100vh;
+  border: black solid 1px;
+  display: flex;
+}
+.half-pic3 {
+  /* border: solid 1px greenyellow; */
+  width: 50%;
+  background-image: url(./assets/yes.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(209, 209, 209, 0.788);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.half-pic4 {
+  background-image: url(./assets/Skärmavbild\ 2022-04-21\ kl.\ 21.04.55.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  /* border: 1px solid yellow; */
+  background-position: 70%;
+}
+
+/* TREDJE BILD DEL  */
+.half-pic5 {
+  height: 100vh;
+  background-image: url(./assets/tshirt.real.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 150%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.half-pic6 {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+#p-white {
+  color: white;
+  width: 40%;
+  /* font-family: "Bebas Neue", cursive; */
+  /* font-family: "Inter", sans-serif; */
+  font-family: "Patrick Hand", cursive;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-stretch: ultra-expanded;
+}
+
+footer {
+  width: auto;
+  height: 100px;
+  background-color: rgb(0, 0, 0);
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.footer-text {
+  display: flex;
+  /* flex-grow: 1; */
+  flex-direction: column;
+}
+
+.img-container {
+  height: 100vh;
+  background-image: url(./assets/yes.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(209, 209, 209, 0.788);
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  border: 1px solid black;
+  height: 50%;
+  width: 800px;
+  margin-top: 10%;
+  background-color: rgba(255, 255, 255, 0.514);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.half-form {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+input {
+  width: 300px;
+  height: 30px;
+}
+.hidden {
+  visibility: hidden;
+}
+.send-btn {
+  width: 70px;
+}
+
+/* MOBILE SIZE */
+
+@media only screen and (max-width: 640px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  nav {
+    width: 100%;
+    margin: 0%;
+  }
+  .nav__links,
+  .nav__links1 {
+    visibility: hidden;
+  }
+
+  .half-pic,
+  .half-pic2 {
+    width: 100%;
+  }
+}

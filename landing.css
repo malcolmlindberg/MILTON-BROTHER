@@ -1,0 +1,37 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./assets/yes.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#container {
+  background-color: #d6d0d0ea;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#abutton {
+  text-decoration: none;
+  font-size: x-large;
+  color: black;
+  padding: 20px;
+  transition: ease-in-out 0.3s;
+  font-family: uppercut-angle, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#abutton:hover {
+  color: white;
+  background-color: black;
+  transform: scale(1.1);
+  border-radius: 5px;
+}
